@@ -1,0 +1,46 @@
+#top{
+    background-color: #F3EEEA;
+}
+body{
+    background-color: #EBE3D5;
+}
+
+#offcanvasExample{
+    background-color: #EBE3D5;
+}
+.card{
+    background-color: #B0A695;
+}
+#footer{
+    background-color: #776B5D;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.back_col_change:hover{
+    background-color: #B0A695;
+}
+
+.foot_text_col:hover{
+    color: #B0A695;
+    
+}
+
+p{
+    font-size: larger;
+    text-align: justify;
+}
+#software li{
+    font-size: large;
+}
+#concepts li{
+    font-size: large;
+}
+@media (min-width: 670px) {
+    .test{
+        position: fixed !important;
+        top: 8em !important;
+    }
+  }
